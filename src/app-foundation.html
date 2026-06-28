@@ -154,7 +154,7 @@ h4 { font-size: 15px; font-weight: 600; }
 /* --- Header --- */
 #header {
   padding: calc(var(--space) * 2) calc(var(--space) * 2.5);
-  padding-top: calc(var(--space) * 2.5);
+  padding-top: calc(env(safe-area-inset-top, 0px) + var(--space) * 2.5);
 }
 
 .header-top {
