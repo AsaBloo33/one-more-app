@@ -1,0 +1,10 @@
+{
+  "name": "one-more-marathon",
+  "version": "1.0.0",
+  "description": "One More — personal marathon training companion",
+  "type": "module",
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0",
+    "@netlify/functions": "^2.8.2"
+  }
+}
